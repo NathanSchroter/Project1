@@ -1,0 +1,39 @@
+.headerContainer h1{
+display: flex;
+justify-content: center;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+}
+.pageNav{
+    display: flex;
+} 
+.pageNav a{
+    
+    display: flex;
+    text-decoration: none;
+    height: 70px;
+    width: 70px;
+
+}
+
+.navButton{
+    background-color: green;
+    bord
+}
+.navButtonTwo{
+    background-color: yellow;
+}
+.navButtonThree{
+    background-color: #de6262;
+}
+
+.navButtonFour{
+background-color: #1691bd;
+}
+
+.navButtonFive{
+background-color: #166ba2;
+}
