@@ -3,7 +3,6 @@ display: flex;
 justify-content: center;
 
 }
-
 .headerContainer{
     display: flex;
     justify-content: center;
@@ -24,87 +23,128 @@ justify-content: center;
     text-decoration: none;
     height: 80px;
     width: 80px;
- align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
-
-
 .navButton{
     background-color: green;
-    
 }
 .navButtonTwo{
-    background-color: yellow;
+    background-color:yellow;
 }
 .navButtonThree{
     background-color: #de6262;
 }
-
 .navButtonFour{
 background-color: #1691bd;
 }
-
 .navButtonFive{
 background-color: #166ba2;
 }
-
-
+#image{
+width: 20px;
+height: 20px;
+display: flex;
+align-items: center;
+}
+#imageTwo{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+#imageThree{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+#imageFour{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+#imageFive{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
 .imageHeader{
     display: flex;
     justify-content: center;
     background-color: gray;
 }
-
 .picture{
     display: flex;
     justify-content: center;
 }
-.sectionContainerOne{
-
-}
-
+.sectionContainerOne {
+    display: flex;
+    flex-direction: column;
+}  
 .text{
     display: flex;
     justify-content: center;
 }
 .text h2{
     font-weight: bold;
+    text-align: center;
+}
+.text span{
+color: blue
 }
 .text p{
     color:blue;
 }
-
 .row img {
     display: flex;
     justify-content: space-between;
     padding-inline:  40px;
 }
-   
 .row h2{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-.row{
+.row {
     display: flex;
-  justify-content: center;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto auto;
+}
+.things{
+    display: block;
+    text-align: center;
+}
+.things h6{
+    opacity: 60%;
 }
 #photo{
 border: 5px solid yellow;
-padding-bottom: 10px;
+padding-bottom: 15px;
 
 
 }
 #photoTwo{
-    border: 5px solid yellow;
+    border: 5px solid green;
     padding-bottom: 15px;
     }
 #photoThree{
-     border: 5px solid yellow;
-    
+     border: 5px solid red;
+    padding-bottom: 15px;
  }
  #photoFour{
-      border: 5px solid yellow;
-      padding-bottom: 7px;
+      border: 5px solid blue;
+      padding-bottom: 15px;
        }
+.sectionTwoCard img{
+ width: 300px;
+ height: 300px;
+ padding: 0%;
+}
 
 
 
