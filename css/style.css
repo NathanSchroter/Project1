@@ -106,6 +106,7 @@
         padding-inline:  40px;
     }
     
+
     .rowV2 img {
         display: flex;
         justify-content: space-between;
@@ -375,6 +376,11 @@
             display: grid;
             grid-template-columns: repeat(2,2fr);
         }
+
+        .row things{
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+        }
     
         .footerRow{
             display: grid;
@@ -393,12 +399,11 @@
       
         .row {
             display: grid;
-            grid-template-columns: repeat(2,2fr);
+            grid-template-columns: repeat(1,2fr);
         }
     
           .footerRow{
             display: grid;
             grid-template-columns: repeat(2,2fr);
         }
-        
     }
